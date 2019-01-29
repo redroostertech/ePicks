@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		084DA180EE26DC752A53B6A9 /* Pods_ePicksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F499BA0BA437788078834A6 /* Pods_ePicksTests.framework */; };
+		23C249106B618B2D2793B952 /* Pods_ePicksUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7FE2BE60C2448C0967A872B /* Pods_ePicksUITests.framework */; };
+		27FA6498E65F51110E877A61 /* Pods_ePicks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3DCE7AB696DEA8C8740162B /* Pods_ePicks.framework */; };
 		BA0DB29221670D870098BEF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB29121670D870098BEF1 /* AppDelegate.swift */; };
 		BA0DB29421670D870098BEF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB29321670D870098BEF1 /* ViewController.swift */; };
 		BA0DB29721670D870098BEF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA0DB29521670D870098BEF1 /* Main.storyboard */; };
@@ -15,6 +18,70 @@
 		BA0DB29F21670D8A0098BEF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA0DB29D21670D8A0098BEF1 /* LaunchScreen.storyboard */; };
 		BA0DB2AA21670D8A0098BEF1 /* ePicksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB2A921670D8A0098BEF1 /* ePicksTests.swift */; };
 		BA0DB2B521670D8A0098BEF1 /* ePicksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB2B421670D8A0098BEF1 /* ePicksUITests.swift */; };
+		BA0DB2C42167122E0098BEF1 /* Configs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB2C22167122C0098BEF1 /* Configs.swift */; };
+		BA0DB2C52167122E0098BEF1 /* ModuleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB2C32167122E0098BEF1 /* ModuleHandler.swift */; };
+		BA0DB2D02167125D0098BEF1 /* AuthenticationModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB2C6216712500098BEF1 /* AuthenticationModule.swift */; };
+		BA0DB2D12167125D0098BEF1 /* FIRAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB2C7216712510098BEF1 /* FIRAuthentication.swift */; };
+		BA0DB2D22167125D0098BEF1 /* FIRRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB2C8216712530098BEF1 /* FIRRepository.swift */; };
+		BA0DB2D32167125D0098BEF1 /* APIRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB2C9216712540098BEF1 /* APIRepository.swift */; };
+		BA0DB2D42167125D0098BEF1 /* FIRRealtimeDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB2CA216712550098BEF1 /* FIRRealtimeDB.swift */; };
+		BA0DB2D52167125D0098BEF1 /* WowzaConfigurationLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB2CB216712570098BEF1 /* WowzaConfigurationLayer.swift */; };
+		BA0DB2D62167125D0098BEF1 /* FIRFirestoreDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB2CC216712580098BEF1 /* FIRFirestoreDB.swift */; };
+		BA0DB2D72167125D0098BEF1 /* APIParameterLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB2CD2167125A0098BEF1 /* APIParameterLayer.swift */; };
+		BA0DB2D82167125D0098BEF1 /* AWSService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB2CE2167125B0098BEF1 /* AWSService.swift */; };
+		BA0DB2D92167125D0098BEF1 /* WowzaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB2CF2167125C0098BEF1 /* WowzaService.swift */; };
+		BA0DB2E0216712960098BEF1 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB2DA2167128F0098BEF1 /* API.swift */; };
+		BA0DB2E1216712960098BEF1 /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB2DB216712900098BEF1 /* CurrentUser.swift */; };
+		BA0DB2E2216712960098BEF1 /* SignInCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB2DC216712910098BEF1 /* SignInCredentials.swift */; };
+		BA0DB2E3216712960098BEF1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB2DD216712930098BEF1 /* User.swift */; };
+		BA0DB2E4216712960098BEF1 /* SignUpCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB2DE216712940098BEF1 /* SignUpCredentials.swift */; };
+		BA0DB2E5216712960098BEF1 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB2DF216712960098BEF1 /* Error.swift */; };
+		BA0DB2F2216713910098BEF1 /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB2E8216713840098BEF1 /* UIColor+Additions.swift */; };
+		BA0DB2F4216713910098BEF1 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB2EA216713870098BEF1 /* UIViewController+Ext.swift */; };
+		BA0DB2F5216713910098BEF1 /* UIButton+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB2EB216713880098BEF1 /* UIButton+Additions.swift */; };
+		BA0DB2F6216713910098BEF1 /* Strings+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB2EC2167138A0098BEF1 /* Strings+Additions.swift */; };
+		BA0DB2F7216713910098BEF1 /* UIDevice+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB2ED2167138B0098BEF1 /* UIDevice+Extensions.swift */; };
+		BA0DB2F8216713910098BEF1 /* UserDefaults+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB2EE2167138D0098BEF1 /* UserDefaults+Extensions.swift */; };
+		BA0DB2F9216713910098BEF1 /* AttributedString+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB2EF2167138E0098BEF1 /* AttributedString+Extensions.swift */; };
+		BA0DB2FA216713910098BEF1 /* UITextField+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB2F0216713900098BEF1 /* UITextField+Additions.swift */; };
+		BA0DB2FB216713910098BEF1 /* UIView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB2F1216713910098BEF1 /* UIView+Additions.swift */; };
+		BA0DB2FD2167155B0098BEF1 /* UILabel+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB2FC2167155B0098BEF1 /* UILabel+Additions.swift */; };
+		BA0DB2FF216715660098BEF1 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB2FE216715660098BEF1 /* Date+Ext.swift */; };
+		BA0DB3022167167C0098BEF1 /* AppDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB3012167167C0098BEF1 /* AppDefaults.swift */; };
+		BA0DB33C2168E84B0098BEF1 /* ZFPlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB3072168E8490098BEF1 /* ZFPlayerModel.m */; };
+		BA0DB33D2168E84B0098BEF1 /* UIWindow+CurrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB3102168E8490098BEF1 /* UIWindow+CurrentViewController.m */; };
+		BA0DB33E2168E84B0098BEF1 /* UIView+CustomControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB3112168E8490098BEF1 /* UIView+CustomControlView.m */; };
+		BA0DB33F2168E84B0098BEF1 /* UIImageView+ZFCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB3122168E8490098BEF1 /* UIImageView+ZFCache.m */; };
+		BA0DB3402168E84B0098BEF1 /* UIViewController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB3132168E8490098BEF1 /* UIViewController+ZFPlayerRotation.m */; };
+		BA0DB3412168E84B0098BEF1 /* ZFBrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB3182168E8490098BEF1 /* ZFBrightnessView.m */; };
+		BA0DB3422168E84B0098BEF1 /* ZFPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA0DB3192168E8490098BEF1 /* ZFPlayer.bundle */; };
+		BA0DB3432168E84B0098BEF1 /* ASValuePopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB31B2168E84A0098BEF1 /* ASValuePopUpView.m */; };
+		BA0DB3442168E84B0098BEF1 /* ZFPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB31C2168E84A0098BEF1 /* ZFPlayerControlView.m */; };
+		BA0DB3452168E84B0098BEF1 /* ZFPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB31D2168E84A0098BEF1 /* ZFPlayerView.m */; };
+		BA0DB3462168E84B0098BEF1 /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB31E2168E84A0098BEF1 /* MMMaterialDesignSpinner.m */; };
+		BA0DB3472168E84B0098BEF1 /* ASValueTrackingSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB3202168E84A0098BEF1 /* ASValueTrackingSlider.m */; };
+		BA0DB3482168E84B0098BEF1 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB3232168E84A0098BEF1 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		BA0DB3492168E84B0098BEF1 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB32C2168E84A0098BEF1 /* ViewController+MASAdditions.m */; };
+		BA0DB34A2168E84B0098BEF1 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB3302168E84A0098BEF1 /* MASCompositeConstraint.m */; };
+		BA0DB34B2168E84B0098BEF1 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB3312168E84A0098BEF1 /* MASConstraintMaker.m */; };
+		BA0DB34C2168E84B0098BEF1 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB3322168E84A0098BEF1 /* MASLayoutConstraint.m */; };
+		BA0DB34D2168E84B0098BEF1 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB3332168E84A0098BEF1 /* NSArray+MASAdditions.m */; };
+		BA0DB34E2168E84B0098BEF1 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB3342168E84A0098BEF1 /* View+MASAdditions.m */; };
+		BA0DB34F2168E84B0098BEF1 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB3372168E84A0098BEF1 /* MASConstraint.m */; };
+		BA0DB3502168E84B0098BEF1 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB3392168E84A0098BEF1 /* MASViewConstraint.m */; };
+		BA0DB3512168E84B0098BEF1 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0DB33A2168E84A0098BEF1 /* MASViewAttribute.m */; };
+		BA0DB3522168E84B0098BEF1 /* WowzaGoCoderSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA0DB33B2168E84A0098BEF1 /* WowzaGoCoderSDK.framework */; };
+		BA0DB3532168E85E0098BEF1 /* WowzaGoCoderSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA0DB33B2168E84A0098BEF1 /* WowzaGoCoderSDK.framework */; };
+		BA0DB3542168E85E0098BEF1 /* WowzaGoCoderSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA0DB33B2168E84A0098BEF1 /* WowzaGoCoderSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA3E0AAF2168F02E000A70B1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA3E0AAE2168F02D000A70B1 /* GoogleService-Info.plist */; };
+		BA3E0AB22168F43A000A70B1 /* FormCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E0AB02168F43A000A70B1 /* FormCell.swift */; };
+		BA3E0AB32168F43A000A70B1 /* FormCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA3E0AB12168F43A000A70B1 /* FormCell.xib */; };
+		BA3E0AB821690123000A70B1 /* FormCallToActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E0AB621690123000A70B1 /* FormCallToActionCell.swift */; };
+		BA3E0AB921690123000A70B1 /* FormCallToActionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA3E0AB721690123000A70B1 /* FormCallToActionCell.xib */; };
+		BA3E0ABB21691786000A70B1 /* FIRAuthenticationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E0ABA21691786000A70B1 /* FIRAuthenticationController.swift */; };
+		BA3E0ABF21692A9E000A70B1 /* LoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E0ABE21692A9E000A70B1 /* LoginTableViewController.swift */; };
+		BA3E0AC1216A3D7E000A70B1 /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E0AC0216A3D7E000A70B1 /* CustomTabBarViewController.swift */; };
+		BA3E0AC3216A4A75000A70B1 /* MyTeamsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E0AC2216A4A75000A70B1 /* MyTeamsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +101,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BA0DB3552168E85E0098BEF1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BA0DB3542168E85E0098BEF1 /* WowzaGoCoderSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0F499BA0BA437788078834A6 /* Pods_ePicksTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ePicksTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C02B46DBD4E9EB44827689 /* Pods-ePicksUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ePicksUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ePicksUITests/Pods-ePicksUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		42030B5EC50D0D938AFA2803 /* Pods-ePicksUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ePicksUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ePicksUITests/Pods-ePicksUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AD55189710AFB9C3650E618D /* Pods-ePicksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ePicksTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ePicksTests/Pods-ePicksTests.release.xcconfig"; sourceTree = "<group>"; };
+		B504AF338F76EEC4234F802F /* Pods-ePicks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ePicks.release.xcconfig"; path = "Pods/Target Support Files/Pods-ePicks/Pods-ePicks.release.xcconfig"; sourceTree = "<group>"; };
 		BA0DB28E21670D870098BEF1 /* ePicks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ePicks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA0DB29121670D870098BEF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA0DB29321670D870098BEF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +135,100 @@
 		BA0DB2B021670D8A0098BEF1 /* ePicksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ePicksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA0DB2B421670D8A0098BEF1 /* ePicksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ePicksUITests.swift; sourceTree = "<group>"; };
 		BA0DB2B621670D8B0098BEF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA0DB2C22167122C0098BEF1 /* Configs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configs.swift; sourceTree = "<group>"; };
+		BA0DB2C32167122E0098BEF1 /* ModuleHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModuleHandler.swift; path = "../New Group1/ModuleHandler.swift"; sourceTree = "<group>"; };
+		BA0DB2C6216712500098BEF1 /* AuthenticationModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationModule.swift; sourceTree = "<group>"; };
+		BA0DB2C7216712510098BEF1 /* FIRAuthentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIRAuthentication.swift; sourceTree = "<group>"; };
+		BA0DB2C8216712530098BEF1 /* FIRRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIRRepository.swift; sourceTree = "<group>"; };
+		BA0DB2C9216712540098BEF1 /* APIRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRepository.swift; sourceTree = "<group>"; };
+		BA0DB2CA216712550098BEF1 /* FIRRealtimeDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIRRealtimeDB.swift; sourceTree = "<group>"; };
+		BA0DB2CB216712570098BEF1 /* WowzaConfigurationLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WowzaConfigurationLayer.swift; sourceTree = "<group>"; };
+		BA0DB2CC216712580098BEF1 /* FIRFirestoreDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIRFirestoreDB.swift; sourceTree = "<group>"; };
+		BA0DB2CD2167125A0098BEF1 /* APIParameterLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIParameterLayer.swift; sourceTree = "<group>"; };
+		BA0DB2CE2167125B0098BEF1 /* AWSService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWSService.swift; sourceTree = "<group>"; };
+		BA0DB2CF2167125C0098BEF1 /* WowzaService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WowzaService.swift; sourceTree = "<group>"; };
+		BA0DB2DA2167128F0098BEF1 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		BA0DB2DB216712900098BEF1 /* CurrentUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentUser.swift; sourceTree = "<group>"; };
+		BA0DB2DC216712910098BEF1 /* SignInCredentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInCredentials.swift; sourceTree = "<group>"; };
+		BA0DB2DD216712930098BEF1 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BA0DB2DE216712940098BEF1 /* SignUpCredentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpCredentials.swift; sourceTree = "<group>"; };
+		BA0DB2DF216712960098BEF1 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		BA0DB2E8216713840098BEF1 /* UIColor+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
+		BA0DB2EA216713870098BEF1 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		BA0DB2EB216713880098BEF1 /* UIButton+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Additions.swift"; sourceTree = "<group>"; };
+		BA0DB2EC2167138A0098BEF1 /* Strings+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Strings+Additions.swift"; sourceTree = "<group>"; };
+		BA0DB2ED2167138B0098BEF1 /* UIDevice+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extensions.swift"; sourceTree = "<group>"; };
+		BA0DB2EE2167138D0098BEF1 /* UserDefaults+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extensions.swift"; sourceTree = "<group>"; };
+		BA0DB2EF2167138E0098BEF1 /* AttributedString+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AttributedString+Extensions.swift"; sourceTree = "<group>"; };
+		BA0DB2F0216713900098BEF1 /* UITextField+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Additions.swift"; sourceTree = "<group>"; };
+		BA0DB2F1216713910098BEF1 /* UIView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Additions.swift"; sourceTree = "<group>"; };
+		BA0DB2FC2167155B0098BEF1 /* UILabel+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Additions.swift"; sourceTree = "<group>"; };
+		BA0DB2FE216715660098BEF1 /* Date+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		BA0DB3012167167C0098BEF1 /* AppDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDefaults.swift; sourceTree = "<group>"; };
+		BA0DB3072168E8490098BEF1 /* ZFPlayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerModel.m; sourceTree = "<group>"; };
+		BA0DB3082168E8490098BEF1 /* ZFPlayerControlViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerControlViewDelegate.h; sourceTree = "<group>"; };
+		BA0DB3092168E8490098BEF1 /* ZFPlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerControlView.h; sourceTree = "<group>"; };
+		BA0DB30A2168E8490098BEF1 /* ASValuePopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValuePopUpView.h; sourceTree = "<group>"; };
+		BA0DB30C2168E8490098BEF1 /* UIWindow+CurrentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+CurrentViewController.h"; sourceTree = "<group>"; };
+		BA0DB30D2168E8490098BEF1 /* UIView+CustomControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CustomControlView.h"; sourceTree = "<group>"; };
+		BA0DB30E2168E8490098BEF1 /* UIViewController+ZFPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZFPlayerRotation.h"; sourceTree = "<group>"; };
+		BA0DB30F2168E8490098BEF1 /* UIImageView+ZFCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ZFCache.h"; sourceTree = "<group>"; };
+		BA0DB3102168E8490098BEF1 /* UIWindow+CurrentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+CurrentViewController.m"; sourceTree = "<group>"; };
+		BA0DB3112168E8490098BEF1 /* UIView+CustomControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CustomControlView.m"; sourceTree = "<group>"; };
+		BA0DB3122168E8490098BEF1 /* UIImageView+ZFCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ZFCache.m"; sourceTree = "<group>"; };
+		BA0DB3132168E8490098BEF1 /* UIViewController+ZFPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZFPlayerRotation.m"; sourceTree = "<group>"; };
+		BA0DB3142168E8490098BEF1 /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMaterialDesignSpinner.h; sourceTree = "<group>"; };
+		BA0DB3152168E8490098BEF1 /* ZFPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerView.h; sourceTree = "<group>"; };
+		BA0DB3162168E8490098BEF1 /* ASValueTrackingSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValueTrackingSlider.h; sourceTree = "<group>"; };
+		BA0DB3172168E8490098BEF1 /* ZFPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayer.h; sourceTree = "<group>"; };
+		BA0DB3182168E8490098BEF1 /* ZFBrightnessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBrightnessView.m; sourceTree = "<group>"; };
+		BA0DB3192168E8490098BEF1 /* ZFPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZFPlayer.bundle; sourceTree = "<group>"; };
+		BA0DB31A2168E84A0098BEF1 /* ZFPlayerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerModel.h; sourceTree = "<group>"; };
+		BA0DB31B2168E84A0098BEF1 /* ASValuePopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValuePopUpView.m; sourceTree = "<group>"; };
+		BA0DB31C2168E84A0098BEF1 /* ZFPlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerControlView.m; sourceTree = "<group>"; };
+		BA0DB31D2168E84A0098BEF1 /* ZFPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerView.m; sourceTree = "<group>"; };
+		BA0DB31E2168E84A0098BEF1 /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMaterialDesignSpinner.m; sourceTree = "<group>"; };
+		BA0DB31F2168E84A0098BEF1 /* ZFBrightnessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBrightnessView.h; sourceTree = "<group>"; };
+		BA0DB3202168E84A0098BEF1 /* ASValueTrackingSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValueTrackingSlider.m; sourceTree = "<group>"; };
+		BA0DB3222168E84A0098BEF1 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		BA0DB3232168E84A0098BEF1 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		BA0DB3242168E84A0098BEF1 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		BA0DB3252168E84A0098BEF1 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		BA0DB3262168E84A0098BEF1 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		BA0DB3272168E84A0098BEF1 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		BA0DB3282168E84A0098BEF1 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		BA0DB3292168E84A0098BEF1 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		BA0DB32A2168E84A0098BEF1 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		BA0DB32B2168E84A0098BEF1 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		BA0DB32C2168E84A0098BEF1 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		BA0DB32D2168E84A0098BEF1 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		BA0DB32E2168E84A0098BEF1 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		BA0DB32F2168E84A0098BEF1 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		BA0DB3302168E84A0098BEF1 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		BA0DB3312168E84A0098BEF1 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		BA0DB3322168E84A0098BEF1 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		BA0DB3332168E84A0098BEF1 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		BA0DB3342168E84A0098BEF1 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		BA0DB3352168E84A0098BEF1 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		BA0DB3362168E84A0098BEF1 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		BA0DB3372168E84A0098BEF1 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		BA0DB3382168E84A0098BEF1 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		BA0DB3392168E84A0098BEF1 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		BA0DB33A2168E84A0098BEF1 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		BA0DB33B2168E84A0098BEF1 /* WowzaGoCoderSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WowzaGoCoderSDK.framework; sourceTree = "<group>"; };
+		BA3E0AAE2168F02D000A70B1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BA3E0AB02168F43A000A70B1 /* FormCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormCell.swift; sourceTree = "<group>"; };
+		BA3E0AB12168F43A000A70B1 /* FormCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FormCell.xib; sourceTree = "<group>"; };
+		BA3E0AB621690123000A70B1 /* FormCallToActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormCallToActionCell.swift; sourceTree = "<group>"; };
+		BA3E0AB721690123000A70B1 /* FormCallToActionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FormCallToActionCell.xib; sourceTree = "<group>"; };
+		BA3E0ABA21691786000A70B1 /* FIRAuthenticationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIRAuthenticationController.swift; sourceTree = "<group>"; };
+		BA3E0ABE21692A9E000A70B1 /* LoginTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTableViewController.swift; sourceTree = "<group>"; };
+		BA3E0AC0216A3D7E000A70B1 /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
+		BA3E0AC2216A4A75000A70B1 /* MyTeamsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTeamsTableViewController.swift; sourceTree = "<group>"; };
+		F3DCE7AB696DEA8C8740162B /* Pods_ePicks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ePicks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7FE2BE60C2448C0967A872B /* Pods_ePicksUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ePicksUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3154D5D01FF4DA51062BBA /* Pods-ePicks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ePicks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ePicks/Pods-ePicks.debug.xcconfig"; sourceTree = "<group>"; };
+		FF5D400896D31DD03F571CA4 /* Pods-ePicksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ePicksTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ePicksTests/Pods-ePicksTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +236,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA0DB3532168E85E0098BEF1 /* WowzaGoCoderSDK.framework in Frameworks */,
+				BA0DB3522168E84B0098BEF1 /* WowzaGoCoderSDK.framework in Frameworks */,
+				27FA6498E65F51110E877A61 /* Pods_ePicks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +246,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				084DA180EE26DC752A53B6A9 /* Pods_ePicksTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +254,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23C249106B618B2D2793B952 /* Pods_ePicksUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A74F5E32AEFA74C8D9B5265 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3DCE7AB696DEA8C8740162B /* Pods_ePicks.framework */,
+				0F499BA0BA437788078834A6 /* Pods_ePicksTests.framework */,
+				F7FE2BE60C2448C0967A872B /* Pods_ePicksUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9652099A99E34746D5DA5C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC3154D5D01FF4DA51062BBA /* Pods-ePicks.debug.xcconfig */,
+				B504AF338F76EEC4234F802F /* Pods-ePicks.release.xcconfig */,
+				FF5D400896D31DD03F571CA4 /* Pods-ePicksTests.debug.xcconfig */,
+				AD55189710AFB9C3650E618D /* Pods-ePicksTests.release.xcconfig */,
+				19C02B46DBD4E9EB44827689 /* Pods-ePicksUITests.debug.xcconfig */,
+				42030B5EC50D0D938AFA2803 /* Pods-ePicksUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BA0DB28521670D860098BEF1 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +291,8 @@
 				BA0DB2A821670D8A0098BEF1 /* ePicksTests */,
 				BA0DB2B321670D8A0098BEF1 /* ePicksUITests */,
 				BA0DB28F21670D870098BEF1 /* Products */,
+				B9652099A99E34746D5DA5C9 /* Pods */,
+				9A74F5E32AEFA74C8D9B5265 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +310,17 @@
 			isa = PBXGroup;
 			children = (
 				BA0DB29121670D870098BEF1 /* AppDelegate.swift */,
-				BA0DB29321670D870098BEF1 /* ViewController.swift */,
-				BA0DB29521670D870098BEF1 /* Main.storyboard */,
-				BA0DB29B21670D8A0098BEF1 /* Assets.xcassets */,
-				BA0DB29D21670D8A0098BEF1 /* LaunchScreen.storyboard */,
+				BA0DB2C22167122C0098BEF1 /* Configs.swift */,
+				BA0DB2E7216712DB0098BEF1 /* Modules */,
+				BA0DB2E6216712B30098BEF1 /* Models */,
+				BA0DB3002167156A0098BEF1 /* Extensions */,
+				BA3E0AB42168F449000A70B1 /* UI+Kit */,
+				BA3E0ABC21692A51000A70B1 /* Resources */,
+				BA3E0ABD21692A6B000A70B1 /* Controllers */,
 				BA0DB2A021670D8A0098BEF1 /* Info.plist */,
 				BA0DB29821670D870098BEF1 /* ePicks.xcdatamodeld */,
+				BA3E0AAE2168F02D000A70B1 /* GoogleService-Info.plist */,
+				BA0DB3052168E8490098BEF1 /* Frameworks */,
 			);
 			path = ePicks;
 			sourceTree = "<group>";
@@ -128,6 +343,179 @@
 			path = ePicksUITests;
 			sourceTree = "<group>";
 		};
+		BA0DB2E6216712B30098BEF1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BA0DB2DA2167128F0098BEF1 /* API.swift */,
+				BA0DB2DB216712900098BEF1 /* CurrentUser.swift */,
+				BA0DB2DF216712960098BEF1 /* Error.swift */,
+				BA0DB2DC216712910098BEF1 /* SignInCredentials.swift */,
+				BA0DB2DE216712940098BEF1 /* SignUpCredentials.swift */,
+				BA0DB2DD216712930098BEF1 /* User.swift */,
+				BA0DB3012167167C0098BEF1 /* AppDefaults.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BA0DB2E7216712DB0098BEF1 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				BA0DB2C32167122E0098BEF1 /* ModuleHandler.swift */,
+				BA0DB2CD2167125A0098BEF1 /* APIParameterLayer.swift */,
+				BA0DB2C9216712540098BEF1 /* APIRepository.swift */,
+				BA0DB2C6216712500098BEF1 /* AuthenticationModule.swift */,
+				BA0DB2CE2167125B0098BEF1 /* AWSService.swift */,
+				BA0DB2C8216712530098BEF1 /* FIRRepository.swift */,
+				BA0DB2C7216712510098BEF1 /* FIRAuthentication.swift */,
+				BA0DB2CC216712580098BEF1 /* FIRFirestoreDB.swift */,
+				BA0DB2CA216712550098BEF1 /* FIRRealtimeDB.swift */,
+				BA3E0ABA21691786000A70B1 /* FIRAuthenticationController.swift */,
+				BA0DB2CF2167125C0098BEF1 /* WowzaService.swift */,
+				BA0DB2CB216712570098BEF1 /* WowzaConfigurationLayer.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		BA0DB3002167156A0098BEF1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BA0DB2EF2167138E0098BEF1 /* AttributedString+Extensions.swift */,
+				BA0DB2EC2167138A0098BEF1 /* Strings+Additions.swift */,
+				BA0DB2EB216713880098BEF1 /* UIButton+Additions.swift */,
+				BA0DB2E8216713840098BEF1 /* UIColor+Additions.swift */,
+				BA0DB2ED2167138B0098BEF1 /* UIDevice+Extensions.swift */,
+				BA0DB2F0216713900098BEF1 /* UITextField+Additions.swift */,
+				BA0DB2F1216713910098BEF1 /* UIView+Additions.swift */,
+				BA0DB2EA216713870098BEF1 /* UIViewController+Ext.swift */,
+				BA0DB2EE2167138D0098BEF1 /* UserDefaults+Extensions.swift */,
+				BA0DB2FC2167155B0098BEF1 /* UILabel+Additions.swift */,
+				BA0DB2FE216715660098BEF1 /* Date+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BA0DB3052168E8490098BEF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA0DB3062168E8490098BEF1 /* ZFPlayer */,
+				BA0DB3212168E84A0098BEF1 /* Masonry */,
+				BA0DB33B2168E84A0098BEF1 /* WowzaGoCoderSDK.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA0DB3062168E8490098BEF1 /* ZFPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				BA0DB3072168E8490098BEF1 /* ZFPlayerModel.m */,
+				BA0DB3082168E8490098BEF1 /* ZFPlayerControlViewDelegate.h */,
+				BA0DB3092168E8490098BEF1 /* ZFPlayerControlView.h */,
+				BA0DB30A2168E8490098BEF1 /* ASValuePopUpView.h */,
+				BA0DB30B2168E8490098BEF1 /* Category */,
+				BA0DB3142168E8490098BEF1 /* MMMaterialDesignSpinner.h */,
+				BA0DB3152168E8490098BEF1 /* ZFPlayerView.h */,
+				BA0DB3162168E8490098BEF1 /* ASValueTrackingSlider.h */,
+				BA0DB3172168E8490098BEF1 /* ZFPlayer.h */,
+				BA0DB3182168E8490098BEF1 /* ZFBrightnessView.m */,
+				BA0DB3192168E8490098BEF1 /* ZFPlayer.bundle */,
+				BA0DB31A2168E84A0098BEF1 /* ZFPlayerModel.h */,
+				BA0DB31B2168E84A0098BEF1 /* ASValuePopUpView.m */,
+				BA0DB31C2168E84A0098BEF1 /* ZFPlayerControlView.m */,
+				BA0DB31D2168E84A0098BEF1 /* ZFPlayerView.m */,
+				BA0DB31E2168E84A0098BEF1 /* MMMaterialDesignSpinner.m */,
+				BA0DB31F2168E84A0098BEF1 /* ZFBrightnessView.h */,
+				BA0DB3202168E84A0098BEF1 /* ASValueTrackingSlider.m */,
+			);
+			path = ZFPlayer;
+			sourceTree = "<group>";
+		};
+		BA0DB30B2168E8490098BEF1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BA0DB30C2168E8490098BEF1 /* UIWindow+CurrentViewController.h */,
+				BA0DB30D2168E8490098BEF1 /* UIView+CustomControlView.h */,
+				BA0DB30E2168E8490098BEF1 /* UIViewController+ZFPlayerRotation.h */,
+				BA0DB30F2168E8490098BEF1 /* UIImageView+ZFCache.h */,
+				BA0DB3102168E8490098BEF1 /* UIWindow+CurrentViewController.m */,
+				BA0DB3112168E8490098BEF1 /* UIView+CustomControlView.m */,
+				BA0DB3122168E8490098BEF1 /* UIImageView+ZFCache.m */,
+				BA0DB3132168E8490098BEF1 /* UIViewController+ZFPlayerRotation.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		BA0DB3212168E84A0098BEF1 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				BA0DB3222168E84A0098BEF1 /* MASCompositeConstraint.h */,
+				BA0DB3232168E84A0098BEF1 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				BA0DB3242168E84A0098BEF1 /* MASConstraint+Private.h */,
+				BA0DB3252168E84A0098BEF1 /* MASLayoutConstraint.h */,
+				BA0DB3262168E84A0098BEF1 /* NSArray+MASShorthandAdditions.h */,
+				BA0DB3272168E84A0098BEF1 /* MASConstraintMaker.h */,
+				BA0DB3282168E84A0098BEF1 /* View+MASAdditions.h */,
+				BA0DB3292168E84A0098BEF1 /* NSArray+MASAdditions.h */,
+				BA0DB32A2168E84A0098BEF1 /* MASUtilities.h */,
+				BA0DB32B2168E84A0098BEF1 /* MASViewAttribute.h */,
+				BA0DB32C2168E84A0098BEF1 /* ViewController+MASAdditions.m */,
+				BA0DB32D2168E84A0098BEF1 /* MASViewConstraint.h */,
+				BA0DB32E2168E84A0098BEF1 /* MASConstraint.h */,
+				BA0DB32F2168E84A0098BEF1 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				BA0DB3302168E84A0098BEF1 /* MASCompositeConstraint.m */,
+				BA0DB3312168E84A0098BEF1 /* MASConstraintMaker.m */,
+				BA0DB3322168E84A0098BEF1 /* MASLayoutConstraint.m */,
+				BA0DB3332168E84A0098BEF1 /* NSArray+MASAdditions.m */,
+				BA0DB3342168E84A0098BEF1 /* View+MASAdditions.m */,
+				BA0DB3352168E84A0098BEF1 /* View+MASShorthandAdditions.h */,
+				BA0DB3362168E84A0098BEF1 /* Masonry.h */,
+				BA0DB3372168E84A0098BEF1 /* MASConstraint.m */,
+				BA0DB3382168E84A0098BEF1 /* ViewController+MASAdditions.h */,
+				BA0DB3392168E84A0098BEF1 /* MASViewConstraint.m */,
+				BA0DB33A2168E84A0098BEF1 /* MASViewAttribute.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		BA3E0AB42168F449000A70B1 /* UI+Kit */ = {
+			isa = PBXGroup;
+			children = (
+				BA3E0AB52168F460000A70B1 /* TableViewCells */,
+			);
+			path = "UI+Kit";
+			sourceTree = "<group>";
+		};
+		BA3E0AB52168F460000A70B1 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				BA3E0AB02168F43A000A70B1 /* FormCell.swift */,
+				BA3E0AB12168F43A000A70B1 /* FormCell.xib */,
+				BA3E0AB621690123000A70B1 /* FormCallToActionCell.swift */,
+				BA3E0AB721690123000A70B1 /* FormCallToActionCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		BA3E0ABC21692A51000A70B1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA0DB29521670D870098BEF1 /* Main.storyboard */,
+				BA0DB29B21670D8A0098BEF1 /* Assets.xcassets */,
+				BA0DB29D21670D8A0098BEF1 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BA3E0ABD21692A6B000A70B1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BA0DB29321670D870098BEF1 /* ViewController.swift */,
+				BA3E0ABE21692A9E000A70B1 /* LoginTableViewController.swift */,
+				BA3E0AC0216A3D7E000A70B1 /* CustomTabBarViewController.swift */,
+				BA3E0AC2216A4A75000A70B1 /* MyTeamsTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +523,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA0DB2B921670D8B0098BEF1 /* Build configuration list for PBXNativeTarget "ePicks" */;
 			buildPhases = (
+				78FE510306E2034995D73475 /* [CP] Check Pods Manifest.lock */,
 				BA0DB28A21670D870098BEF1 /* Sources */,
 				BA0DB28B21670D870098BEF1 /* Frameworks */,
 				BA0DB28C21670D870098BEF1 /* Resources */,
+				80ACFECAEE415774C381BD25 /* [CP] Embed Pods Frameworks */,
+				0FA1B328FF93251F18EEDFD7 /* [CP] Copy Pods Resources */,
+				BA0DB3552168E85E0098BEF1 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +544,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA0DB2BC21670D8B0098BEF1 /* Build configuration list for PBXNativeTarget "ePicksTests" */;
 			buildPhases = (
+				BCE8E821A5D94B59CB3A8E39 /* [CP] Check Pods Manifest.lock */,
 				BA0DB2A121670D8A0098BEF1 /* Sources */,
 				BA0DB2A221670D8A0098BEF1 /* Frameworks */,
 				BA0DB2A321670D8A0098BEF1 /* Resources */,
@@ -170,6 +563,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA0DB2BF21670D8B0098BEF1 /* Build configuration list for PBXNativeTarget "ePicksUITests" */;
 			buildPhases = (
+				D54E11E3182244EBE6B97FDC /* [CP] Check Pods Manifest.lock */,
 				BA0DB2AC21670D8A0098BEF1 /* Sources */,
 				BA0DB2AD21670D8A0098BEF1 /* Frameworks */,
 				BA0DB2AE21670D8A0098BEF1 /* Resources */,
@@ -232,7 +626,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA0DB3422168E84B0098BEF1 /* ZFPlayer.bundle in Resources */,
 				BA0DB29F21670D8A0098BEF1 /* LaunchScreen.storyboard in Resources */,
+				BA3E0AB921690123000A70B1 /* FormCallToActionCell.xib in Resources */,
+				BA3E0AAF2168F02E000A70B1 /* GoogleService-Info.plist in Resources */,
+				BA3E0AB32168F43A000A70B1 /* FormCell.xib in Resources */,
 				BA0DB29C21670D8A0098BEF1 /* Assets.xcassets in Resources */,
 				BA0DB29721670D870098BEF1 /* Main.storyboard in Resources */,
 			);
@@ -254,14 +652,230 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0FA1B328FF93251F18EEDFD7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ePicks/Pods-ePicks-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ePicks/Pods-ePicks-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78FE510306E2034995D73475 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ePicks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80ACFECAEE415774C381BD25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ePicks/Pods-ePicks-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/CVCalendar/CVCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/DateToolsSwift/DateToolsSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Player/Player.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/PryntTrimmerView/PryntTrimmerView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SteviaLayout/Stevia.framework",
+				"${BUILT_PRODUCTS_DIR}/WRCalendarView/WRCalendarView.framework",
+				"${BUILT_PRODUCTS_DIR}/YPImagePicker/YPImagePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CVCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DateToolsSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Player.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PryntTrimmerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stevia.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WRCalendarView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YPImagePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ePicks/Pods-ePicks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCE8E821A5D94B59CB3A8E39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ePicksTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D54E11E3182244EBE6B97FDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ePicksUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BA0DB28A21670D870098BEF1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA3E0AC3216A4A75000A70B1 /* MyTeamsTableViewController.swift in Sources */,
+				BA0DB33C2168E84B0098BEF1 /* ZFPlayerModel.m in Sources */,
+				BA0DB2D42167125D0098BEF1 /* FIRRealtimeDB.swift in Sources */,
+				BA0DB2D82167125D0098BEF1 /* AWSService.swift in Sources */,
+				BA0DB2E4216712960098BEF1 /* SignUpCredentials.swift in Sources */,
+				BA3E0ABB21691786000A70B1 /* FIRAuthenticationController.swift in Sources */,
+				BA0DB2F5216713910098BEF1 /* UIButton+Additions.swift in Sources */,
+				BA0DB34E2168E84B0098BEF1 /* View+MASAdditions.m in Sources */,
+				BA0DB34B2168E84B0098BEF1 /* MASConstraintMaker.m in Sources */,
 				BA0DB29421670D870098BEF1 /* ViewController.swift in Sources */,
+				BA0DB2C42167122E0098BEF1 /* Configs.swift in Sources */,
+				BA0DB34A2168E84B0098BEF1 /* MASCompositeConstraint.m in Sources */,
+				BA3E0AB22168F43A000A70B1 /* FormCell.swift in Sources */,
+				BA0DB2FF216715660098BEF1 /* Date+Ext.swift in Sources */,
+				BA0DB33E2168E84B0098BEF1 /* UIView+CustomControlView.m in Sources */,
+				BA0DB34F2168E84B0098BEF1 /* MASConstraint.m in Sources */,
+				BA0DB3502168E84B0098BEF1 /* MASViewConstraint.m in Sources */,
+				BA0DB2F2216713910098BEF1 /* UIColor+Additions.swift in Sources */,
+				BA0DB34D2168E84B0098BEF1 /* NSArray+MASAdditions.m in Sources */,
 				BA0DB29A21670D870098BEF1 /* ePicks.xcdatamodeld in Sources */,
+				BA0DB2D02167125D0098BEF1 /* AuthenticationModule.swift in Sources */,
+				BA0DB2D72167125D0098BEF1 /* APIParameterLayer.swift in Sources */,
+				BA0DB3442168E84B0098BEF1 /* ZFPlayerControlView.m in Sources */,
+				BA0DB3462168E84B0098BEF1 /* MMMaterialDesignSpinner.m in Sources */,
 				BA0DB29221670D870098BEF1 /* AppDelegate.swift in Sources */,
+				BA0DB2F9216713910098BEF1 /* AttributedString+Extensions.swift in Sources */,
+				BA0DB2D12167125D0098BEF1 /* FIRAuthentication.swift in Sources */,
+				BA0DB2D52167125D0098BEF1 /* WowzaConfigurationLayer.swift in Sources */,
+				BA0DB2E2216712960098BEF1 /* SignInCredentials.swift in Sources */,
+				BA0DB3022167167C0098BEF1 /* AppDefaults.swift in Sources */,
+				BA0DB3472168E84B0098BEF1 /* ASValueTrackingSlider.m in Sources */,
+				BA0DB34C2168E84B0098BEF1 /* MASLayoutConstraint.m in Sources */,
+				BA0DB2FB216713910098BEF1 /* UIView+Additions.swift in Sources */,
+				BA0DB2F7216713910098BEF1 /* UIDevice+Extensions.swift in Sources */,
+				BA0DB3432168E84B0098BEF1 /* ASValuePopUpView.m in Sources */,
+				BA3E0AC1216A3D7E000A70B1 /* CustomTabBarViewController.swift in Sources */,
+				BA0DB3452168E84B0098BEF1 /* ZFPlayerView.m in Sources */,
+				BA0DB2C52167122E0098BEF1 /* ModuleHandler.swift in Sources */,
+				BA0DB2F4216713910098BEF1 /* UIViewController+Ext.swift in Sources */,
+				BA0DB2E1216712960098BEF1 /* CurrentUser.swift in Sources */,
+				BA0DB3412168E84B0098BEF1 /* ZFBrightnessView.m in Sources */,
+				BA3E0ABF21692A9E000A70B1 /* LoginTableViewController.swift in Sources */,
+				BA0DB33D2168E84B0098BEF1 /* UIWindow+CurrentViewController.m in Sources */,
+				BA0DB3402168E84B0098BEF1 /* UIViewController+ZFPlayerRotation.m in Sources */,
+				BA0DB2F8216713910098BEF1 /* UserDefaults+Extensions.swift in Sources */,
+				BA0DB33F2168E84B0098BEF1 /* UIImageView+ZFCache.m in Sources */,
+				BA0DB3512168E84B0098BEF1 /* MASViewAttribute.m in Sources */,
+				BA0DB2D92167125D0098BEF1 /* WowzaService.swift in Sources */,
+				BA0DB2D62167125D0098BEF1 /* FIRFirestoreDB.swift in Sources */,
+				BA0DB3492168E84B0098BEF1 /* ViewController+MASAdditions.m in Sources */,
+				BA0DB2D22167125D0098BEF1 /* FIRRepository.swift in Sources */,
+				BA0DB2F6216713910098BEF1 /* Strings+Additions.swift in Sources */,
+				BA0DB3482168E84B0098BEF1 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				BA0DB2E0216712960098BEF1 /* API.swift in Sources */,
+				BA0DB2FD2167155B0098BEF1 /* UILabel+Additions.swift in Sources */,
+				BA0DB2D32167125D0098BEF1 /* APIRepository.swift in Sources */,
+				BA0DB2E5216712960098BEF1 /* Error.swift in Sources */,
+				BA0DB2FA216713910098BEF1 /* UITextField+Additions.swift in Sources */,
+				BA3E0AB821690123000A70B1 /* FormCallToActionCell.swift in Sources */,
+				BA0DB2E3216712960098BEF1 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,10 +1046,15 @@
 		};
 		BA0DB2BA21670D8B0098BEF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC3154D5D01FF4DA51062BBA /* Pods-ePicks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2PSWQPK482;
+				DEVELOPMENT_TEAM = GG3KSM6AUN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ePicks/Frameworks",
+				);
 				INFOPLIST_FILE = ePicks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,10 +1069,15 @@
 		};
 		BA0DB2BB21670D8B0098BEF1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B504AF338F76EEC4234F802F /* Pods-ePicks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2PSWQPK482;
+				DEVELOPMENT_TEAM = GG3KSM6AUN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ePicks/Frameworks",
+				);
 				INFOPLIST_FILE = ePicks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -468,6 +1092,7 @@
 		};
 		BA0DB2BD21670D8B0098BEF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF5D400896D31DD03F571CA4 /* Pods-ePicksTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +1114,7 @@
 		};
 		BA0DB2BE21670D8B0098BEF1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD55189710AFB9C3650E618D /* Pods-ePicksTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +1136,7 @@
 		};
 		BA0DB2C021670D8B0098BEF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19C02B46DBD4E9EB44827689 /* Pods-ePicksUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +1157,7 @@
 		};
 		BA0DB2C121670D8B0098BEF1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42030B5EC50D0D938AFA2803 /* Pods-ePicksUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

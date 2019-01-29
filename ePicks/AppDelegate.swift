@@ -8,15 +8,41 @@
 
 import UIKit
 import CoreData
+import IQKeyboardManagerSwift
+import Firebase
+import SVProgressHUD
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        
+        
+        IQKeyboardManager.shared.enable = true
+        _ = ModuleHandler.shared
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        if let _ = Auth.auth().currentUser {
+            print("ALERT | FIRAuthententication Current User | Current user found")
+            guard let viewcontroller = storyboard.instantiateViewController(withIdentifier: "CustomTabBarViewController") as? CustomTabBarViewController else {
+                print("CustomTabBar unavailable")
+                return true
+            }
+            window = UIWindow(frame: UIScreen.main.bounds)
+            window?.rootViewController = viewcontroller
+            window?.makeKeyAndVisible()
+        } else {
+            print("ALERT | FIRAuthententication Current User | Current user not found")
+            let viewcontroller = storyboard.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+            window = UIWindow(frame: UIScreen.main.bounds)
+            window?.rootViewController = viewcontroller
+            window?.makeKeyAndVisible()
+        }
+        
         return true
     }
 
